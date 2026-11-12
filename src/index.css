@@ -1,1 +1,17 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+  --color-brand-crimson: #9B1B30;
+  --color-brand-crimsonDark: #7A1425;
+  --color-brand-charcoal: #141414;
+  --color-brand-surface: #1E1E1E;
+  --color-brand-stone: #F9F8F6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #F9F8F6;
+    color: #141414;
+  }
+}
